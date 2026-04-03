@@ -1,0 +1,73 @@
+`# Python
+*.pyc
+
+# OpenSim
+opensim.log
+
+# data files
+expData/
+__pycache__/
+goodresults
+oldModels/
+analysesTools/
+analysesReports/
+pathResults/
+
+# all the intermediate results
+3ActMet_2D3D_OG_muscles_Tracking_solutionGRF_FullStride.sto
+3ActMet_2D3D_OG_muscles_Tracking_solution_FullStride.sto
+3ActMet_2D3D_OG_muscles_Tracking_solution_FullStride_controls.sto
+3ActMet_2D3D_OG_muscles_Tracking_solution_FullStride_states.sto
+3ActMet_2D3D_OG_muscles_Tracking_solution__Halfgaitcycle.sto
+3ActMet_2D3D_OG_muscles_Tracking_solution__Halfgaitcycle_controls.sto
+3ActMet_2D3D_OG_muscles_Tracking_solution__Halfgaitcycle_states.sto
+3ActMet_2D3D_OG_muscles_Tracking_solution_fullStride_wGRF.sto
+3ActMet_2D3D_muscle_GaitTracking_tracked_states.sto
+3_2D3D_OG_muscles_Tracking_solutionGRF_FullStride.sto
+3_2D3D_OG_muscles_Tracking_solution_FullStride.sto
+3_2D3D_OG_muscles_Tracking_solution_FullStride_controls.sto
+3_2D3D_OG_muscles_Tracking_solution_FullStride_states.sto
+3_2D3D_OG_muscles_Tracking_solution__Halfgaitcycle.sto
+3_2D3D_OG_muscles_Tracking_solution__Halfgaitcycle_controls.sto
+3_2D3D_OG_muscles_Tracking_solution__Halfgaitcycle_states.sto
+3_2D3D_OG_muscles_Tracking_solution_fullStride_wGRF.sto
+3_2D3D_muscle_GaitTracking_tracked_states.sto
+5msActMet_2D3D_OG_muscles_Tracking_solutionGRF_FullStride.sto
+5msActMet_2D3D_OG_muscles_Tracking_solution_FullStride.sto
+5msActMet_2D3D_OG_muscles_Tracking_solution__Halfgaitcycle.sto
+5msActMet_2D3D_OG_muscles_Tracking_solution_fullStride_wGRF.sto
+5msexoActMet_2D3D_OG_muscles_Tracking_solutionGRF_FullStride.sto
+5msexoActMet_2D3D_OG_muscles_Tracking_solution_FullStride.sto
+5msexoActMet_2D3D_OG_muscles_Tracking_solution__Halfgaitcycle.sto
+5msexoActMet_2D3D_OG_muscles_Tracking_solution_fullStride_wGRF.sto
+
+3ActMet_2D*
+3_2D*
+5msActMet_2D*
+5msexoActMet_*
+3exoActMet_*
+3ActMetST_*
+3exoActMetST_*
+5msActMetST_*
+5msexoActMetST_*
+3controls*
+3exoMet*
+3Met*
+3exo*
+3ActMet*
+3CMA*
+4CMA*
+3NatVSExo*
+4ActMet*
+4exoActMet*
+4NatVSExo*
+muscle_exotendon*
+
+
+
+# any rouge files from simulations
+delete_this_to*
+iteration_.txt
+# any rouge excel type temp files
+.~lock*
+~$*

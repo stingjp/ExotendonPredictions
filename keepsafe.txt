@@ -1,0 +1,24 @@
+solutionFile = '3Act_2D3D_OG_muscles_Tracking_solution_FullStride.sto'
+modelFile = '2DMuscles_OG_complextoes_3Dsphere_arms2D - Copy_stiff.osim'
+# statesFile = 'testingmetcoststates.sto'
+# controlsFile = 'testingmetcostControls.sto'
+grfFile = 'grf_walk_nat_1.xml'
+helperOsimFunctions.quickAnalyze(solutionFile, modelFile, grfFile, 'nat')
+
+
+probeFile = './analysesTools/quickAnalysis_nat_ProbeReporter_probes.sto'
+helperOsimFunctions.quickMetCost(probeFile, modelFile)
+
+
+
+## plyaing aroud with the exo as well
+solutionFile = '3exoAct_2D3D_OG_muscles_Tracking_solution_FullStride.sto'
+modelFile = '2DMuscles_OG_complextoes_3Dsphere_arms2D_exo - Copy_stiff.osim'
+helperOsimFunctions.quickAnalyze(solutionFile, modelFile, grfFile, 'exo')
+
+
+probeFile = './analysesTools/quickAnalysis_exo_ProbeReporter_probes.sto'
+helperOsimFunctions.quickMetCost(probeFile, modelFile)
+
+
+pdb.set_trace()
