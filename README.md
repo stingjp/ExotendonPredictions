@@ -11,7 +11,7 @@ In this project we perform muscle-driven kinematic/ground reaction force trackin
 - We utilize 3D motion capture data and full ground reaction force data in order to set the simulations up.
 - For the slower speeds, we used data from a previous Exotendon study that can be found in the SimTK project: https://simtk.org/projects/exotendon_sims (we primarily used data from the 'welk005' subject) (Stingel et al., 2023).
 - The higher speed running did not have any prior exotendon data. Therefore, we paired the model (above) with running from other subjects found in the following study: https://simtk.org/projects/nmbl_running/ (we primarily used data from Subject19) (Hamner & Delp, 2013). 
-- A condensed, streamlined data repository specifically for this project can be found on SimTK here: (TODO)
+- A condensed, streamlined data repository specifically for this project can be found on SimTK here: https://simtk.org/projects/exotendon_pred
 
 # Running the code/repository
 ## Setup data
